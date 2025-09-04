@@ -1,0 +1,7 @@
+body {
+  margin: 20px;
+}
+#counter_program #button{
+  display: block;
+  justify-content: center;
+}
