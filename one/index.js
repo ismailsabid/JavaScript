@@ -46,27 +46,27 @@
 //     document.getElementById("circumferance").textContent=`Circumferance=${circumferance}`;
 // }
 
-//🔥PROJECT 1:COUNTER PROGRAM:
+// //🔥PROJECT 1:COUNTER PROGRAM:
 
-let digit=0;
-document.getElementById("digit").textContent=digit;
-document.getElementById("inc_button").onclick=function(){
-    digit+=1;
-    document.getElementById("digit").textContent=digit;
+// let digit=0;
+// document.getElementById("digit").textContent=digit;
+// document.getElementById("inc_button").onclick=function(){
+//     digit+=1;
+//     document.getElementById("digit").textContent=digit;
 
-}
+// }
 
 
-document.getElementById("dec_button").onclick=function(){
-    digit-=1;
-    document.getElementById("digit").textContent=digit;
+// document.getElementById("dec_button").onclick=function(){
+//     digit-=1;
+//     document.getElementById("digit").textContent=digit;
 
-}
-document.getElementById("reset_button").onclick=function(){
-    digit=0;
-    document.getElementById("digit").textContent=digit;
+// }
+// document.getElementById("reset_button").onclick=function(){
+//     digit=0;
+//     document.getElementById("digit").textContent=digit;
 
-}
+// }
 
 //incomplete
 
@@ -92,3 +92,11 @@ document.getElementById("reset_button").onclick=function(){
 // console.log(Math.tan(-20.5));
 
 
+// //✌️WHILE LOOP :: 
+
+
+// let x=window.prompt("What is your name?");
+
+// while(x===null || x.trim()===""){
+//     x=window.prompt("What is your name?");
+// 

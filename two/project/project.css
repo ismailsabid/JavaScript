@@ -1,0 +1,101 @@
+body{
+    font-family: "Roberto", sans-serif;
+    background-color: rgb(226, 220, 220);
+}
+/* ✌️PROJECT 1:Temperature Conversion */
+form{
+    background-color: white;
+    max-width: 350px;
+    text-align: center;
+    padding: 50px;
+    margin: auto;
+    box-shadow: 5px 5px 15px hsla(0,0%,0%,0.3);
+    border-radius: 20px;
+}
+form h1{
+    color: rgba(180, 15, 15, 0.811);
+}
+#input{
+    border-radius: 5px;
+    padding: 10px;
+    text-align: center;
+    font-size: 1.2rem;
+    margin-top: 4px;
+}
+label[for="toFarenheit"]{
+    font-size: 1.4rem;
+    font-weight: bold;
+    margin-top:10px;
+    
+}
+form input{
+    margin-top: 20px;
+}
+
+label[for="toCelcius"]{
+    font-size: 1.4rem;
+    font-weight: bold;
+}
+
+#button{
+    border: none;
+    margin: 20px;
+    background-color: rgb(253, 13, 13);
+    padding: 10px 20px;
+    font-size: larger;
+    border-radius: 8px;
+    color: beige;
+}
+#button:hover{
+    background-color: hsla(0, 98%, 52%, 0.7);
+}
+#result{
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+#containter_temperature{
+    margin-top: 100px;
+}
+
+/* ✌️PROJECT 1:Temperature Conversion */
+
+/*  ✌️PROJECT 2:DICE ROLLER PROGRAM */
+
+ 
+#container_diceRoller{
+    background-color: white;
+    max-width: 350px;
+    text-align: center;
+    padding: 50px;
+    margin: auto;
+    box-shadow: 5px 5px 15px hsla(0,0%,0%,0.3);
+    border-radius: 20px;
+}
+
+#rsesultImage img{
+    width: 140px;
+    margin: 4px;
+}
+
+/*  ✌️PROJECT 2:DICE ROLLER PROGRAM */
+
+/* shared style */
+.heading{
+    color: chocolate;
+    font-size: 2rem;
+    font-weight: bolder;
+}
+
+.button{
+    border: none;
+    margin: 20px;
+    background-color: rgb(253, 13, 13);
+    padding: 10px 20px;
+    font-size: larger;
+    border-radius: 8px;
+    color: beige;
+    cursor: pointer;
+}
+.button:hover{
+    background-color:hsla(92, 94%, 45%, 0.8);
+}

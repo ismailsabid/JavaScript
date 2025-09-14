@@ -1,0 +1,12 @@
+
+label{
+    font-size: larger;
+    
+}
+button{
+    color: beige;
+    background-color: brown;
+    padding: 10px;
+    font-size: larger;
+    border-radius: 10px;
+}
